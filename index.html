@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Image Updates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            text-align: center;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 30px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .ad-container {
+            margin: 20px auto;
+            padding: 15px;
+            background: #fff;
+            max-width: 728px;
+            border: 1px dashed #ccc;
+            min-height: 90px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .telegram-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #0088cc;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            z-index: 1000;
+        }
+
+        .telegram-float:hover {
+            background-color: #0077b5;
+            color: white;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #222;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Latest Image Updates</h1>
+        <p>Daily updates and fresh content</p>
+    </header>
+
+    <div class="ad-container">
+        <p style="color: #999;">[Advertisement Space]</p>
+    </div>
+
+    <main class="gallery">
+        <div class="card"><img src="https://i.ibb.co/7tRjmpH6/1.jpg" alt="Update 1"></div>
+        <div class="card"><img src="https://i.ibb.co/bMkT5Q1B/2.jpg" alt="Update 2"></div>
+        <div class="card"><img src="https://i.ibb.co/ds6YKnY3/3.jpg" alt="Update 3"></div>
+        <div class="card"><img src="https://i.ibb.co/1Ggx6wb6/4.jpg" alt="Update 4"></div>
+        <div class="card"><img src="https://i.ibb.co/8LMfW0fn/5.jpg" alt="Update 5"></div>
+        <div class="card"><img src="https://i.ibb.co/dsnbjsdj/6.jpg" alt="Update 6"></div>
+        <div class="card"><img src="https://i.ibb.co/cSrkD7N7/7.jpg" alt="Update 7"></div>
+        <div class="card"><img src="https://i.ibb.co/VWrp5qMg/8.jpg" alt="Update 8"></div>
+        <div class="card"><img src="https://i.ibb.co/N2nbP4yG/9.jpg" alt="Update 9"></div>
+        <div class="card"><img src="https://i.ibb.co/WW453TY4/10.jpg" alt="Update 10"></div>
+        <div class="card"><img src="https://i.ibb.co/DP9Jdh8g/11.jpg" alt="Update 11"></div>
+        <div class="card"><img src="https://i.ibb.co/dycLZpM/12.jpg" alt="Update 12"></div>
+        <div class="card"><img src="https://i.ibb.co/hJyRJyJg/13.jpg" alt="Update 13"></div>
+        <div class="card"><img src="https://i.ibb.co/gbS5cfqZ/14.jpg" alt="Update 14"></div>
+        <div class="card"><img src="https://i.ibb.co/XZvMHTh0/15.jpg" alt="Update 15"></div>
+        <div class="card"><img src="https://i.ibb.co/LdykLzR4/16.jpg" alt="Update 16"></div>
+    </main>
+
+    <a href="https://t.me/+Xix65NBOwPw1OTE9" class="telegram-float" target="_blank">
+        <i class="fab fa-telegram-plane"></i> Join Telegram
+    </a>
+
+    <footer>
+        <p>&copy; 2026 My Daily Gallery | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
